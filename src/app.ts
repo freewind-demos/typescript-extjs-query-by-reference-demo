@@ -1,5 +1,5 @@
-Ext.onReady?.(() => {
-    new Ext.Panel(<Ext.panel.Panel.Cfg>{
+Ext.onReady(() => {
+    new Ext.Panel({
         renderTo: 'main',
         height: 100,
         width: 200,
