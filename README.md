@@ -1,7 +1,7 @@
-TypeScript ExtJS Demo
+TypeScript ExtJS Show Array Data in Panel Demo
 ====================
 
-'extjs-typings-6.2.0' 来自：https://github.com/ExtTS/definitions/tree/master/6.2.0-classic-all-packages-no-jsdocs
+可以使用getter来从`this.`中取数据。
 
 ```
 npm install
