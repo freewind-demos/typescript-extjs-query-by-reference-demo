@@ -7,10 +7,15 @@ Ext.onReady(() => {
         items: [
             new Ext.button.Button({
                 text: 'extjs',
+                reference: 'aaa',
+                listeners: {
+                    click: () => {
+                        const button = Ext.ComponentQuery.query('[reference=aaa]')[0];
+                        alert(button.text);
+                        button.setText('new text ' + Date.now())
+                    }
+                }
             }),
-            new Ext.button.Button({
-                text: 'typescript',
-            })
         ]
     })
 });

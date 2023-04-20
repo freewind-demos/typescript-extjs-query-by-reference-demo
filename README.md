@@ -1,4 +1,4 @@
-TypeScript ExtJS Panel Items Demo
+TypeScript ExtJS Query by Reference Demo
 ====================
 
 ```
